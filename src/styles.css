@@ -1,5 +1,11 @@
+:root {
+  --primary-color: #b5bdc0;
+  --secondary-color: #f3e5ab;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
-  background-color: #f3e5ab;
+  background-color: var(--secondary-color);
 }
 
 .content {
@@ -39,4 +45,23 @@ h4 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+  text-transform: capitalize;
+}
+
+.home-link {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.photo-link {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
 }
